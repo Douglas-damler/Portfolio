@@ -1,0 +1,111 @@
+body {
+    background-color: white;
+    width: 90%;
+}
+
+.main-container {
+  max-width: 900px;
+  text-align: center;
+  margin: 0 auto;
+  
+}
+
+.topnav {
+    overflow: hidden;
+    margin-top: 20px;
+  }
+
+  .topnav #name {
+      font-size: 30px;
+      font-weight: 300;
+      font-weight: bold;
+      padding: 0;
+      color: rgb(15, 86, 133);
+      font-family: "Proza Libre", sans-serif;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  
+  .topnav-right {
+    float: right;
+  }
+.main-container .top {
+    text-align: left;
+    width: 100%;
+    float: right;
+}
+
+.top h3 {
+ 
+
+}
+
+.top p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+}
+
+.top img {
+    width: 25%;
+    padding: 20px;
+    border-radius: 100px;
+    float: right;
+    
+    margin-top: -250px;
+    padding: 10px;
+    background-color: rgb(2, 57, 78);
+}
+
+.top h3 {
+  font-family: "Proza Libre", sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+  display: block;
+}
+
+.top ul {
+  list-style-type:armenian
+}
+
+.top ul li {
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    .topnav .topnav-right {
+        display: none;
+    }
+
+    .topnav #name {
+        padding: 0px;
+    }
+
+    .top p {
+      width: 100%;
+    }
+
+    .top img {
+      display: block;
+      margin-top: 2px;
+      padding: 0px;
+      width: 80%;
+      margin-left: 10px;
+    }
+}
