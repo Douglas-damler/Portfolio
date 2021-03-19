@@ -1,6 +1,5 @@
 body {
     background-color: white;
-    width: 90%;
 }
 
 .main-container {
@@ -49,11 +48,6 @@ body {
     float: right;
 }
 
-.top h3 {
- 
-
-}
-
 .top p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 50%;
@@ -76,17 +70,56 @@ body {
   margin-top: 20px;
   display: block;
 }
+.more-about {
+  text-align: left;
+}
 
-.top ul {
+.more-about ul {
   list-style-type:armenian
 }
 
-.top ul li {
+.more-about ul li {
   font-weight: bold;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.more-about h3 {
+  font-family: "Proza Libre", sans-serif;
+  margin-top: 40px;
+}
 
+#social-links {
+  list-style-type: none;
+}
+
+#social-links li {
+  display: inline-block;
+  padding: 10px;
+}
+
+#social-links a {
+  text-decoration: none;
+  color: #000000;
+}
+
+#skills {
+  list-style-type: none;
+}
+
+#skills img {
+  display: inline-block;
+  padding: ;
+}
+
+.footer {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer p {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 @media only screen and (max-width: 500px) {
     .topnav .topnav-right {
@@ -107,5 +140,9 @@ body {
       padding: 0px;
       width: 80%;
       margin-left: 10px;
+    }
+
+    .more-about h3 {
+      margin-top: 50px;
     }
 }
