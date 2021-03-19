@@ -108,7 +108,8 @@ body {
 
 #skills img {
   display: inline-block;
-  padding: ;
+  width: 5%;
+  padding: 20px;
 }
 
 .footer {
