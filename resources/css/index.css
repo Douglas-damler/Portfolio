@@ -15,11 +15,20 @@ body {
     margin-top: 20px;
   }
 
+  #greetings {
+  font-weight: 900;
+  background: linear-gradient(to right, #40a86a, #cfad5e, #db363b);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+  padding: 5px;
+  }
   .topnav #name {
+      padding: 5px;
       font-size: 30px;
       font-weight: 300;
       font-weight: bold;
-      padding: 0;
       color: rgb(15, 86, 133);
       font-family: "Proza Libre", sans-serif;
   }
@@ -68,11 +77,12 @@ body {
 .top h3 {
   font-family: "Proza Libre", sans-serif;
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: 10px;
   display: block;
 }
 .more-about {
   text-align: left;
+  padding: 10px;
 }
 
 .more-about ul {
@@ -128,20 +138,18 @@ body {
         display: none;
     }
 
-    .topnav #name {
-        padding: 0px;
-    }
 
     .top p {
-      width: 100%;
+      width: 90%;
+      padding: 5px;
     }
+    
 
     .top img {
       display: block;
       margin-top: 2px;
       padding: 0px;
-      width: 80%;
-      margin-left: 10px;
+      width: 100%;
     }
 
     .more-about h3 {
