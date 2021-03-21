@@ -1,3 +1,5 @@
+
+/*Import font awesome icons*/
 @import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
 body {
     background-color: white;
@@ -13,6 +15,7 @@ body {
 .topnav {
     overflow: hidden;
     margin-top: 20px;
+    border-bottom: 1px solid rgb(202, 194, 194);
   }
 
   #greetings {
@@ -48,7 +51,6 @@ body {
     color: black;
   }
 
-  
   .topnav-right {
     float: right;
   }
@@ -133,18 +135,62 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+#message {
+  border: solid 1px rgb(202, 194, 194);
+  padding: 20px;
+}
+
+form {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+form input {
+  width: 250px;
+  margin: 20px;
+  height: 20px;
+  padding: 4px;
+  border-radius: 2px;
+  border: solid 1px rgb(70, 198, 248);
+}
+
+form textarea {
+  margin: 20px 20px 0px 0px;
+  height: 40px;
+  width: 250px;
+  padding: 4px;
+  border: solid 1px rgb(70, 198, 248);
+}
+
+form label {
+  text-align: left;
+}
+
+#submit {
+  background-color: rgb(4, 42, 73);
+  color: white;
+  border-radius: 2px;
+  height: 30px;
+  margin: 20px;
+  width: 100px;
+  border: none;
+}
+
+#message h3 {
+  color: rgb(9, 97, 179);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: left;
+}
+
+/*media queries*/
 @media only screen and (max-width: 500px) {
     .topnav .topnav-right {
         display: none;
     }
-
 
     .top p {
       width: 90%;
       padding: 5px;
     }
     
-
     .top img {
       display: block;
       margin-top: 2px;
